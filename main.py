@@ -5,8 +5,8 @@ import bcrypt
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Yagna@321",
-    database="Bank"
+    password="yourpassword",
+    database="yourdb"
 )
 cursor = db.cursor()
 
